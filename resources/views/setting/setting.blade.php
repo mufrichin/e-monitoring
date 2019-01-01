@@ -1,8 +1,8 @@
 @extends('panel.app')
 
-@section('menu-2','active')
+@section('menu-4','active')
 
-@section('title','Tambah Data')
+@section('title','Pengaturan')
 
 @section('content')
 
@@ -14,91 +14,13 @@
                             <div class="content">
                                 <div class="row">
                                     <div class="col-xs-5">
-                                        <div class="icon-big icon-info text-center">
-                                            <i class="ti-target"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-7">
-                                        <div class="numbers">
-                                            <p>SASARAN</p>
-                                            Strategis
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="footer">
-                                    <hr>
-                                    <div class="stats">
-                                        <i class="ti-plus"></i> Tambah Data
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="row">
-                                    <div class="col-xs-5">
-                                        <div class="icon-big icon-warning text-center">
-                                            <i class="ti-list"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-7">
-                                        <div class="numbers">
-                                            <p>INDIKATOR</p>
-                                            Kinerja
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="footer">
-                                    <hr>
-                                    <div class="stats">
-                                       <i class="ti-plus"></i> Tambah Data
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="row">
-                                    <div class="col-xs-5">
-                                        <div class="icon-big icon-danger text-center">
-                                            <i class="ti-bookmark-alt"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-7">
-                                        <div class="numbers">
-                                            <p>UNIT</p>
-                                            Kerja
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="footer">
-                                    <hr>
-                                    <div class="stats">
-                                        <i class="ti-plus"></i> Tambah Data
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                 
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card">
-                            <div class="content">
-                                <div class="row">
-                                    <div class="col-xs-5">
                                         <div class="icon-big icon-warning text-center">
                                             <i class="ti-calendar"></i>
                                         </div>
                                     </div>
                                     <div class="col-xs-7">
                                         <div class="numbers">
-                                            <p>TAMBAH</p>
+                                            <p>SET</p>
                                             Tahun
                                         </div>
                                     </div>
@@ -106,7 +28,7 @@
                                 <div class="footer">
                                     <hr>
                                     <div class="stats">
-                                        <i class="ti-plus"></i> Tambah Data
+                                        <i class="ti-settings"></i> Setting Data
                                     </div>
                                 </div>
                             </div>
@@ -123,7 +45,7 @@
                                     </div>
                                     <div class="col-xs-7">
                                         <div class="numbers">
-                                            <p>TAMBAH</p>
+                                            <p>SET</p>
                                             Bulan
                                         </div>
                                     </div>
@@ -131,7 +53,57 @@
                                 <div class="footer">
                                     <hr>
                                     <div class="stats">
-                                       <i class="ti-plus"></i> Tambah Data
+                                       <i class="ti-settings"></i> Setting Data
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-xs-5">
+                                        <div class="icon-big icon-danger text-center">
+                                            <i class="ti-check-box"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-7">
+                                        <div class="numbers">
+                                            <p>SET</p>
+                                            Target
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <hr>
+                                    <div class="stats">
+                                        <i class="ti-settings"></i> Setting Data
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 	<div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-xs-5">
+                                        <div class="icon-big icon-danger text-center">
+                                            <i class="ti-alarm-clock"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-7">
+                                        <div class="numbers">
+                                            <p>SET</p>
+                                            Timer
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <hr>
+                                    <div class="stats">
+                                        <i class="ti-settings"></i> Setting Data
                                     </div>
                                 </div>
                             </div>

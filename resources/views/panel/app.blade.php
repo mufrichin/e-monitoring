@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="{{!! asset ('img/favicon.png')!!}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-        <title>E-Monitoring Kontrak Kinerja Universitas Negeri Malang</title>
+        <title>E-Monitoring Target Kinerja Universitas Negeri Malang</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -63,11 +63,11 @@
                 <li class="@yield('menu-3')">
                     <a href="#">
                         <i class="ti-view-list-alt"></i>
-                        <p>Kontrak Kinerja</p>
+                        <p>Target Kinerja</p>
                     </a>
                 </li>
                 <li class="@yield('menu-4')">
-                    <a href="#">
+                    <a href="{{url ("/setting")}}">
                         <i class="ti-settings"></i>
                         <p>Pengaturan</p>
                     </a>

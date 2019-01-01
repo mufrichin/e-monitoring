@@ -2,7 +2,7 @@
 
 @section('menu-1','active')
 
-@section('title','E-Monitoring')
+@section('title', 'Monitoring')
 
 @section('content')
 
@@ -29,7 +29,7 @@
 
             },{
                 type: 'success',
-                timer: 1000
+                timer: 500
             });
 
         });

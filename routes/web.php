@@ -14,3 +14,5 @@
 Route::get('/', 'MonitoringController@index');
 
 Route::get('/data', 'DataController@index');
+
+Route::get('/setting', 'SettingController@index');
