@@ -16,14 +16,39 @@ class DataController extends Controller
    		return view ("data/sasaran/sasaran");
    }
 
+   public function indikator()
+   {
+   	return view ("data/indikator/indikator");
+   }
+
+   public function unit()
+   {
+   	return view ("data/unit/unit");
+   }
+
+   public function periode()
+   {
+   	return view ("data/periode/periode");
+   }
+
    public function inputSasaran()
    {
-	 /*  	$kode='STR';
-	   	if (condition) {
-	   		# code...
-	   	}
-	*/
-   	return view ("/data/sasaran/input");
+	return view ("/data/sasaran/input");
+   }
+
+   public function inputIndikator()
+   {
+	return view ("/data/indikator/input");
+   }
+
+   public function inputUnit()
+   {
+	return view ("/data/unit/input");
+   }
+
+   public function inputPeriode()
+   {
+	return view ("/data/periode/input");
    }
 
 }

@@ -1,8 +1,8 @@
-@extends ('data.sasaran.panel')
+@extends ('data.periode.panel')
 
-@section ('title', 'Input Data Sasaran Strategis')
+@section ('title', 'Input Data Periode')
 
-@section ('sasaran')
+@section ('periode')
 <div class="col-lg-12 col-md-12">
                         <div class="card">
                             <div class="content">
@@ -12,7 +12,7 @@
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="kode">Kode</label>
-                                                <input type="text" class="form-control border-input" required="" disabled placeholder="kode" name="kode" value="STR-01">
+                                                <input type="text" class="form-control border-input" required="" disabled placeholder="kode" name="kode" value="PER-01">
                                             </div>
                                         </div>
                                     </div>
@@ -20,8 +20,8 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label for="sasaran">Sasaran Strategis</label>
-                                                <input type="text" class="form-control border-input" name="sasaran" required=""placeholder="Nama Sasaran Strategis">
+                                                <label for="periode">Periode</label>
+                                                <input type="text" class="form-control border-input" name="periode" required=""placeholder="Nama Periode">
                                             </div>
                                         </div>
                                         </div>
@@ -30,7 +30,7 @@
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>Keterangan</label>
-                                                <textarea rows="4" class="form-control border-input" placeholder="Penjelasan Sasaran Strategis" name="keterangan_sasaran" required=""></textarea>
+                                                <textarea rows="4" class="form-control border-input" placeholder="Penjelasan Periode" name="keterangan_periode" required=""></textarea>
                                             </div>
                                         </div>
                                     </div>

@@ -1,8 +1,8 @@
-@extends ('data.sasaran.panel')
+@extends ('data.periode.panel')
 
-@section('title','Data Sasaran Strategis')
+@section('title','Data Periode')
 
-@section ('sasaran')
+@section ('periode')
 <div class="content">
             <div class="container-fluid">
                 <div class="row">
@@ -13,7 +13,7 @@
                                     <thead>
                                         <th>No</th>
                                     	<th>Kode</th>
-                                    	<th>Sasaran Strategis</th>
+                                    	<th>Nama Periode</th>
                                     	<th>Keterangan</th>
                                     </thead>
                                     <tbody>

@@ -41,6 +41,7 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="card">
                             <div class="content">
+                                <a href="{{url ("data/indikator")}}">
                                 <div class="row">
                                     <div class="col-xs-5">
                                         <div class="icon-big icon-warning text-center">
@@ -54,11 +55,14 @@
                                         </div>
                                     </div>
                                 </div>
+                            </a>
                                 <div class="footer">
                                     <hr>
-                                    <div class="stats">
-                                       <i class="ti-plus"></i> Tambah Data
-                                    </div>
+                                    <a href="{{url ("data/indikator/input")}}">
+                                        <div class="stats">
+                                            <i class="ti-plus"></i> Tambah Data
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -66,6 +70,7 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="card">
                             <div class="content">
+                                <a href="{{url ("data/unit")}}">
                                 <div class="row">
                                     <div class="col-xs-5">
                                         <div class="icon-big icon-danger text-center">
@@ -79,11 +84,14 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="footer">
-                                    <hr>
+                            </a>
+                            <div class="footer">
+                                <hr>
+                                    <a href="{{url ("data/unit/input")}}">
                                     <div class="stats">
                                         <i class="ti-plus"></i> Tambah Data
                                     </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -94,31 +102,7 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="card">
                             <div class="content">
-                                <div class="row">
-                                    <div class="col-xs-5">
-                                        <div class="icon-big icon-warning text-center">
-                                            <i class="ti-calendar"></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-7">
-                                        <div class="numbers">
-                                            <p>TAMBAH</p>
-                                            Tahun
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="footer">
-                                    <hr>
-                                    <div class="stats">
-                                        <i class="ti-plus"></i> Tambah Data
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="card">
-                            <div class="content">
+                                <a href="{{url ("data/periode")}}">
                                 <div class="row">
                                     <div class="col-xs-5">
                                         <div class="icon-big icon-success text-center">
@@ -128,15 +112,18 @@
                                     <div class="col-xs-7">
                                         <div class="numbers">
                                             <p>TAMBAH</p>
-                                            Bulan
+                                            Periode
                                         </div>
                                     </div>
                                 </div>
+                            </a>
                                 <div class="footer">
                                     <hr>
+                                    <a href="{{url ("data/periode/input")}}">
                                     <div class="stats">
                                        <i class="ti-plus"></i> Tambah Data
                                     </div>
+                                </a>
                                 </div>
                             </div>
                         </div>

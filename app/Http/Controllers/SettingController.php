@@ -10,4 +10,9 @@ class SettingController extends Controller
     {
     	return view ("setting/setting");
     }
+
+    public function settingTahun()
+    {
+    	return view ("setting/tahun");
+    }
 }

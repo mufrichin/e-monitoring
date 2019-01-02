@@ -1,8 +1,8 @@
-@extends ('data.sasaran.panel')
+@extends ('data.unit.panel')
 
-@section('title','Data Sasaran Strategis')
+@section('title','Data Unit Kerja')
 
-@section ('sasaran')
+@section ('unit')
 <div class="content">
             <div class="container-fluid">
                 <div class="row">
@@ -12,9 +12,8 @@
                                 <table class="table table-striped">
                                     <thead>
                                         <th>No</th>
-                                    	<th>Kode</th>
-                                    	<th>Sasaran Strategis</th>
-                                    	<th>Keterangan</th>
+                                    	<th>Kode Unit</th>
+                                    	<th>Nama Unit</th>
                                     </thead>
                                     <tbody>
 

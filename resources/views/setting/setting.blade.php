@@ -11,6 +11,7 @@
 			<div class="row">
                     <div class="col-lg-3 col-sm-6">
                         <div class="card">
+                            <a href="{{url ("setting/tahun")}}">
                             <div class="content">
                                 <div class="row">
                                     <div class="col-xs-5">
@@ -32,6 +33,7 @@
                                     </div>
                                 </div>
                             </div>
+                        </a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6">
@@ -46,7 +48,7 @@
                                     <div class="col-xs-7">
                                         <div class="numbers">
                                             <p>SET</p>
-                                            Bulan
+                                            Periode
                                         </div>
                                     </div>
                                 </div>
@@ -111,6 +113,8 @@
                     </div>
                 </div>
             </div>
+            <hr>
+            @yield('set')
         </div>
 
 @endsection
