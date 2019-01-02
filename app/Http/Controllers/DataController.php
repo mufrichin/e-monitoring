@@ -10,4 +10,20 @@ class DataController extends Controller
     {
     	return view ("data/data");
     }
+
+    public function sasaran()
+   {
+   		return view ("data/sasaran/sasaran");
+   }
+
+   public function inputSasaran()
+   {
+	 /*  	$kode='STR';
+	   	if (condition) {
+	   		# code...
+	   	}
+	*/
+   	return view ("/data/sasaran/input");
+   }
+
 }

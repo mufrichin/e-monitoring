@@ -12,6 +12,7 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="card">
                             <div class="content">
+                                <a href="{{url ("data/sasaran")}}">
                                 <div class="row">
                                     <div class="col-xs-5">
                                         <div class="icon-big icon-info text-center">
@@ -25,11 +26,14 @@
                                         </div>
                                     </div>
                                 </div>
+                                </a>
                                 <div class="footer">
                                     <hr>
+                                    <a href="{{url ("data/sasaran/input")}}">
                                     <div class="stats">
                                         <i class="ti-plus"></i> Tambah Data
                                     </div>
+                                </a>
                                 </div>
                             </div>
                         </div>

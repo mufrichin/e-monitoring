@@ -42,7 +42,7 @@
 
         <div class="sidebar-wrapper">
             <div class="logo">
-               <a href="#" class="simple-text">
+               <a href="{{url ("/")}}" class="simple-text">
                    <img src="{{asset('img/um_logo_blue_text.png')}}" width="80">
                 </a>
             </div>

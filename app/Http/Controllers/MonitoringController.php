@@ -10,4 +10,5 @@ class MonitoringController extends Controller
     {
     	return view ("monitoring/monitoring");
     }
+
 }
